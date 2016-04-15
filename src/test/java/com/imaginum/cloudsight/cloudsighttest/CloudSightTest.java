@@ -11,6 +11,7 @@ import com.imaginum.cloudsight.cloudsightclientimpl.CloudSightClientWrapperImpl;
 import junit.framework.TestCase;
 
 public class CloudSightTest extends TestCase {
+	// Set this auth key before running the tests.
 	String authKey = "";
 	
 	/*@Test
