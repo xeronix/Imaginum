@@ -28,6 +28,9 @@ $RECYCLE.BIN/
 .AppleDouble
 .LSOverride
 
+#Java Class File
+.class
+
 # Thumbnails
 ._*
 
