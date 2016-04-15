@@ -31,6 +31,9 @@ $RECYCLE.BIN/
 #Java Class File
 .class
 
+#Eclipse Project Files
+.project
+
 # Thumbnails
 ._*
 
