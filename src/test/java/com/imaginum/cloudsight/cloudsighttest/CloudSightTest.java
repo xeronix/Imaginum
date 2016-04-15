@@ -11,7 +11,7 @@ import com.imaginum.cloudsight.cloudsightclientimpl.CloudSightClientWrapperImpl;
 import junit.framework.TestCase;
 
 public class CloudSightTest extends TestCase {
-	String authKey = "WQPfBnVJdOr-x3WtfBm65w";
+	String authKey = "";
 	
 	/*@Test
 	public void testImageUrl() throws CloudSightClientException {
