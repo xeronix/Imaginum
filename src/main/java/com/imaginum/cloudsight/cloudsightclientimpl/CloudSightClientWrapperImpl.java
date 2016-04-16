@@ -37,6 +37,14 @@ public class CloudSightClientWrapperImpl implements CloudSightClientWrapper {
 
 		switch (CloudSightResponseStatus.getCloudSightResponseStatus(responseStatus)) {
 		case NOT_COMPLETED:
+			// API recommends polling for a response every 1 second after a 4
+			// second delay from the initial request
+			try {
+				Thread.sleep(5000);
+			} catch (InterruptedException e) {
+				throw new CloudSightClientException(e.getMessage());
+			}
+			
 			return executeGetRequest(client, token);
 
 		case COMPLETED:

@@ -13,13 +13,13 @@ import junit.framework.TestCase;
 public class CloudSightTest extends TestCase {
 	// Set this auth key before running the tests.
 	String authKey = "";
-	
-	/*@Test
+					  
+	@Test
 	public void testImageUrl() throws CloudSightClientException {
 		CloudSightClientWrapper clientWrapper = new CloudSightClientWrapperImpl();
 		String description = clientWrapper.getImageDescription(authKey, "http://i.ebayimg.com/images/i/271723310731-0-1/s-l1000.jpg");
 		System.out.println(description);
-	}*/
+	}
 	
 	@Test
 	public void testImageFile() throws CloudSightClientException {
